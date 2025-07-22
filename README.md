@@ -1,61 +1,62 @@
-# COVID Data Exploration Project
-This project involves deep data exploration of global COVID-19 cases and vaccinations using SQL. It demonstrates data cleaning, transformation, and analysis techniques on real-world datasets from Our World in Data.
+# COVID-19 Data Exploration Project
+This project is a deep-dive analysis of global COVID-19 data using SQL. It focuses on understanding the spread of the virus, its impact on populations, and the progress of vaccinations around the world. The goal is to derive meaningful insights from real-world datasets and showcase SQL data handling capabilities.
 
-📂 Dataset
-CovidDeaths.xlsx: Daily reported cases, deaths, and population by location.
+# 📁 Dataset
+CovidDeaths.xlsx – Daily reports of COVID-19 cases, deaths, and population by country.
 
-CovidVaccinations.xlsx: Daily vaccination data by location.
+CovidVaccinations.xlsx – Daily updates on COVID-19 vaccination data.
 
-Source: Our World in Data
+📊 Source: Our World in Data
 
-🧠 Skills Demonstrated
-SQL Joins
+# 🧠 Skills Demonstrated
+Data cleaning and filtering
 
-CTEs (Common Table Expressions)
+Joins between datasets
 
-Temp Tables
+Use of aggregate functions for summary statistics
 
-Aggregate & Window Functions
+Window functions for cumulative metrics
 
-Data Type Conversion
+Common Table Expressions (CTEs)
 
-Creating Views
+Temporary tables and views creation
 
-🔍 Key Insights Extracted
-Total Cases vs. Total Deaths
-→ Calculated the death percentage to show the fatality rate per country.
+Type conversion and formatting
 
-Total Cases vs. Population
-→ Analyzed the percentage of population infected by country.
+# 🔍 Key Analyses Performed
+Death Rate by Country
+Identified the percentage of infected people who died in each country.
 
-Highest Infection Rates
-→ Ranked countries by infection rate relative to population.
+Infection Rate vs. Population
+Measured how much of each country's population was infected.
 
-Highest Death Counts
-→ Identified countries and continents with the most COVID-19 deaths.
+Countries with Highest Cases & Deaths
+Ranked countries based on infection and death counts.
 
-Vaccination Progress
-→ Used window functions and CTEs to calculate rolling vaccination stats.
+Continent-Level Analysis
+Compared continents based on total deaths.
 
-Global Summary
-→ Aggregated new cases, new deaths, and death percentages globally.
+Global Metrics
+Calculated worldwide total cases, deaths, and death percentages.
 
-📊 Sample Queries
-Countries with the highest percentage of population infected.
+Vaccination Progress Tracking
+Used rolling calculations to estimate the percentage of population vaccinated over time.
 
-Rolling count of vaccinated people over time.
+ # 🛠️ Tools & Technologies Used
+SQL Server – Data exploration and analysis
 
-Continent-level death analysis.
+Microsoft Excel – Data source & minor cleaning
 
-Global death percentage trends.
+Git & GitHub – Version control and portfolio showcase
 
-🏗️ View Created
-sql
-Copy
-Edit
-Create View PercentPopulationVaccinated as
-...
-This view helps visualize the vaccination progress over time.
+(Optional: Power BI or Tableau for visualization)
 
-🚀 How to Use
-Run the SQL scripts in a database environment (like SQL Server or MySQL with necessary adjustments). Load the data from the Excel files into two tables: CovidDeaths and CovidVaccinations.
+📌 Project Highlights
+Analyzed and compared global COVID-19 trends.
+
+Identified the most affected countries and regions.
+
+Tracked vaccination rollouts using advanced SQL functions.
+
+Built reusable views for future visualizations.
+
